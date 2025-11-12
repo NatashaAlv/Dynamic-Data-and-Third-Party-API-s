@@ -2,15 +2,12 @@ html, body {
   height: 100%;
   width: 100%;
   text-align: center;
-  /* font-family: 'TwentiethCenturyMedium' ; */
+  font-family: 'TwentiethCenturyMedium' ;
 }
  
 
 h1 {
-  font-family: "matrix-ii", serif;
-  font-weight: 1000;
-  font-style: normal;
-  /* font-family: 'Pokemon Solid', sans-serif; */
+  font-family: 'Pokemon Solid', sans-serif;
   font-size: 3rem;
   letter-spacing:0.25rem;
   margin: 0;
