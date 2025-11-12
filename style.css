@@ -8,8 +8,8 @@ html, body {
 
 h1 {
   font-family: "matrix-ii", serif;
-  font-weight: 800;
-  font-style: bold;
+  font-weight: 1000;
+  font-style: normal;
   /* font-family: 'Pokemon Solid', sans-serif; */
   font-size: 3rem;
   letter-spacing:0.25rem;
