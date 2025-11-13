@@ -57,13 +57,14 @@
     }
 
     .cards {
-      display: flex;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
       justify-content: center;
       gap: 16px;
       margin-top: 30px;
       width: 100%;
       max-width: 1000px;
+      justify-items: center;
     }
 
     .card {
