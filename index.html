@@ -57,21 +57,17 @@
     }
 
     .cards {
-      display: grid;
-      /* grid-template-columns: repeat(5, 1fr); */
-      grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
+      display: flex;
+      flex-wrap: wrap;
       justify-content: center;
       gap: 16px;
       margin-top: 30px;
       width: 100%;
       max-width: 1000px;
-      justify-items: center;
     }
 
     .card {
       width: 200px;
-      /* max-width: 200px;
-      margin: 8px; */
       text-align: center;
       background: #1b1b1b;
       padding: 15px;
